@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "shikki2": "dish_red",
+        "shikkinaka": "miso",
+        "shikki": "dish_black"
+      },
+      "name": "default"
+    }
+  }
+}

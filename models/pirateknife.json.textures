@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pirateknife": "pirateknife"
+      },
+      "name": "default"
+    }
+  }
+}

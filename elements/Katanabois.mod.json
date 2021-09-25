@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "sendaikitetsu",
+    "customModelName": "katanabois:default",
+    "name": "Katana en bois",
+    "creativeTab": {
+      "value": "CUSTOM:OPGA"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 0.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

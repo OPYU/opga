@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "opga:blocks/viola_c",
+    "particle": "opga:blocks/viola_c"
+  }
+}

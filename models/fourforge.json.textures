@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cobblestone_mossy",
+        "1": "cobblestone",
+        "2": "lave"
+      },
+      "name": "default"
+    }
+  }
+}

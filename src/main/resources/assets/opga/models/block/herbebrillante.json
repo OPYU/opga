@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "opga:blocks/agave_stage_3",
+    "particle": "opga:blocks/agave_stage_3"
+  }
+}

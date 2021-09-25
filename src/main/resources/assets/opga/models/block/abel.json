@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "opga:blocks/log_big_oak_top",
+    "up": "opga:blocks/log_big_oak_top",
+    "north": "opga:blocks/log_big_oak",
+    "east": "opga:blocks/log_big_oak",
+    "south": "opga:blocks/log_big_oak",
+    "west": "opga:blocks/log_big_oak",
+    "particle": "opga:blocks/log_big_oak_top"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "planks_birch",
+        "1": "planks_oak",
+        "2": "dye_powder_gray",
+        "3": "test2",
+        "4": "dye_powder_black",
+        "missing": "planks_birch"
+      },
+      "name": "default"
+    }
+  }
+}

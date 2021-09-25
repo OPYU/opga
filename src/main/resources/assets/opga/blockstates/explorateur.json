@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "opga:explorateur"
+    },
+    "facing=north": {
+      "model": "opga:explorateur"
+    },
+    "facing=east": {
+      "model": "opga:explorateur",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "opga:explorateur",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "opga:explorateur",
+      "y": 270
+    }
+  }
+}

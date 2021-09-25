@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "vogue": "vogue"
+      },
+      "name": "default"
+    }
+  }
+}

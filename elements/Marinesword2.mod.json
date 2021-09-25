@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "sendaikitetsu",
+    "customModelName": "marinesword2:default",
+    "name": "Katana basique",
+    "creativeTab": {
+      "value": "CUSTOM:OPGA"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

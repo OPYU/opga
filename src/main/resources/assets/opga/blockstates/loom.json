@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "opga:loom"
+    },
+    "facing=north": {
+      "model": "opga:loom"
+    },
+    "facing=east": {
+      "model": "opga:loom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "opga:loom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "opga:loom",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "bullet": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "opga:bullet",
+        "stream": false
+      }
+    ]
+  }
+}

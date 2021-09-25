@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mint": "food_mint",
+        "icecream": "food_icecream",
+        "glass": "dish_lightb",
+        "saji": "dish_lightg"
+      },
+      "name": "default"
+    }
+  }
+}

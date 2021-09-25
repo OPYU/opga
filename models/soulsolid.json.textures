@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "soulsolid": "soulsolid"
+      },
+      "name": "default"
+    }
+  }
+}

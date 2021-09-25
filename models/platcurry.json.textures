@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "rou": "food_curryrou",
+        "kome": "food_gohan",
+        "cup": "dish_white"
+      },
+      "name": "default"
+    }
+  }
+}

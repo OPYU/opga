@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "opga:blocks/aechmea_a",
+    "particle": "opga:blocks/aechmea_a"
+  }
+}

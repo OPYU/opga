@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "mura": "mura"
+      },
+      "name": "default"
+    }
+  }
+}

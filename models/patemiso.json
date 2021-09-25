@@ -1,0 +1,100 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"owan": "chinjufumod:blocks/muku_birch",
+		"particle": "chinjufumod:blocks/miso_paste",
+		"owannaka": "chinjufumod:blocks/miso_paste"
+	},
+	"elements": [
+		{
+			"name": "owan_soko",
+			"from": [6.7, 0, 6.7],
+			"to": [9.3, 0.2, 9.3],
+			"faces": {
+				"up": {"uv": [6.7, 6.7, 9.3, 9.3], "texture": "#owan"},
+				"down": {"uv": [6.7, 6.7, 9.3, 9.3], "texture": "#owan"}
+			}
+		},
+		{
+			"name": "owan_n",
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 2, 6.7],
+			"faces": {
+				"north": {"uv": [6.5, 14, 9.5, 16], "texture": "#owan"},
+				"east": {"uv": [9.3, 14, 9.5, 16], "texture": "#owan"},
+				"south": {"uv": [6.5, 14, 9.5, 16], "texture": "#owan"},
+				"west": {"uv": [6.5, 14, 6.7, 16], "texture": "#owan"},
+				"up": {"uv": [6.5, 6.5, 9.5, 6.7], "texture": "#owan"},
+				"down": {"uv": [6.5, 9.3, 9.5, 9.5], "texture": "#owan"}
+			}
+		},
+		{
+			"name": "owan_e",
+			"from": [9.3, 0, 6.7],
+			"to": [9.5, 2, 9.3],
+			"faces": {
+				"east": {"uv": [6.7, 14, 9.3, 16], "texture": "#owan"},
+				"west": {"uv": [6.7, 14, 9.3, 16], "texture": "#owan"},
+				"up": {"uv": [9.3, 6.7, 9.5, 9.3], "texture": "#owan"},
+				"down": {"uv": [9.3, 6.7, 9.5, 9.3], "texture": "#owan"}
+			}
+		},
+		{
+			"name": "owan_s",
+			"from": [6.5, 0, 9.3],
+			"to": [9.5, 2, 9.5],
+			"faces": {
+				"north": {"uv": [6.5, 14, 9.5, 16], "texture": "#owan"},
+				"east": {"uv": [6.5, 14, 6.7, 16], "texture": "#owan"},
+				"south": {"uv": [6.5, 14, 9.5, 16], "texture": "#owan"},
+				"west": {"uv": [9.3, 14, 9.5, 16], "texture": "#owan"},
+				"up": {"uv": [6.5, 9.3, 9.5, 9.5], "texture": "#owan"},
+				"down": {"uv": [6.5, 6.5, 9.5, 6.7], "texture": "#owan"}
+			}
+		},
+		{
+			"name": "owan_w",
+			"from": [6.5, 0, 6.7],
+			"to": [6.7, 2, 9.3],
+			"faces": {
+				"east": {"uv": [6.7, 14, 9.3, 16], "texture": "#owan"},
+				"west": {"uv": [6.7, 14, 9.3, 16], "texture": "#owan"},
+				"up": {"uv": [6.5, 6.7, 6.7, 9.3], "texture": "#owan"},
+				"down": {"uv": [6.5, 6.7, 6.7, 9.3], "texture": "#owan"}
+			}
+		},
+		{
+			"name": "owan_naka",
+			"from": [6.7, 1, 6.7],
+			"to": [9.3, 1.9, 9.3],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#owannaka"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [21, 0, 0],
+			"translation": [-1.5, 7.75, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [28, 0, 0],
+			"translation": [-2.75, 7, 3.75]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 8.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 9.25, 0]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0]
+		},
+		"gui": {
+			"rotation": [25, 21, 0],
+			"translation": [0, 12.5, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

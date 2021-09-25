@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "horuhorunomi": "horuhorunomi"
+      },
+      "name": "default"
+    }
+  }
+}

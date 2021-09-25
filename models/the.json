@@ -1,0 +1,105 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"tea": "chinjufumod:blocks/tea_green",
+		"particle": "chinjufumod:blocks/dish_green",
+		"yunomi": "chinjufumod:blocks/dish_green"
+	},
+	"elements": [
+		{
+			"name": "yunomi_soko",
+			"from": [7.2, 0, 7.2],
+			"to": [8.8, 0.2, 8.8],
+			"faces": {
+				"north": {"uv": [7.2, 15.8, 8.8, 16], "texture": "#yunomi"},
+				"east": {"uv": [7.2, 15.8, 8.8, 16], "texture": "#yunomi"},
+				"south": {"uv": [7.2, 15.8, 8.8, 16], "texture": "#yunomi"},
+				"west": {"uv": [7.2, 15.8, 8.8, 16], "texture": "#yunomi"},
+				"up": {"uv": [7.2, 7.2, 8.8, 8.8], "texture": "#yunomi"},
+				"down": {"uv": [7.2, 7.2, 8.8, 8.8], "texture": "#yunomi"}
+			}
+		},
+		{
+			"name": "yunomi_n",
+			"from": [7, 0.2, 7],
+			"to": [9, 2.5, 7.2],
+			"faces": {
+				"north": {"uv": [7, 13.5, 9, 15.8], "texture": "#yunomi"},
+				"east": {"uv": [8.8, 13.5, 9, 15.8], "texture": "#yunomi"},
+				"south": {"uv": [7, 13.5, 9, 15.8], "texture": "#yunomi"},
+				"west": {"uv": [7, 13.5, 7.2, 15.8], "texture": "#yunomi"},
+				"up": {"uv": [7, 7, 9, 7.2], "texture": "#yunomi"},
+				"down": {"uv": [7, 8.8, 9, 9], "texture": "#yunomi"}
+			}
+		},
+		{
+			"name": "yunomi_e",
+			"from": [8.8, 0.2, 7.2],
+			"to": [9, 2.5, 8.8],
+			"faces": {
+				"east": {"uv": [7.2, 13.5, 8.8, 15.8], "texture": "#yunomi"},
+				"west": {"uv": [7.2, 13.5, 8.8, 15.8], "texture": "#yunomi"},
+				"up": {"uv": [8.8, 7.2, 9, 8.8], "texture": "#yunomi"},
+				"down": {"uv": [8.8, 7.2, 9, 8.8], "texture": "#yunomi"}
+			}
+		},
+		{
+			"name": "yunomi_s",
+			"from": [7, 0.2, 8.8],
+			"to": [9, 2.5, 9],
+			"faces": {
+				"north": {"uv": [7, 13.5, 9, 15.8], "texture": "#yunomi"},
+				"east": {"uv": [7, 13.5, 7.2, 15.8], "texture": "#yunomi"},
+				"south": {"uv": [7, 13.5, 9, 15.8], "texture": "#yunomi"},
+				"west": {"uv": [8.8, 13.5, 9, 15.8], "texture": "#yunomi"},
+				"up": {"uv": [7, 8.8, 9, 9], "texture": "#yunomi"},
+				"down": {"uv": [7, 7, 9, 7.2], "texture": "#yunomi"}
+			}
+		},
+		{
+			"name": "yunomi_w",
+			"from": [7, 0.2, 7.2],
+			"to": [7.2, 2.5, 8.8],
+			"faces": {
+				"east": {"uv": [7.2, 13.5, 8.8, 15.8], "texture": "#yunomi"},
+				"west": {"uv": [7.2, 13.5, 8.8, 15.8], "texture": "#yunomi"},
+				"up": {"uv": [7, 7.2, 7.2, 8.8], "texture": "#yunomi"},
+				"down": {"uv": [7, 7.2, 7.2, 8.8], "texture": "#yunomi"}
+			}
+		},
+		{
+			"name": "yunomi_naka",
+			"from": [7.2, 1, 7.2],
+			"to": [8.8, 2, 8.8],
+			"faces": {
+				"up": {"uv": [7.2, 7.2, 8.8, 8.8], "texture": "#tea"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [51, 0, 0],
+			"translation": [-2.25, 5, 5.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [29, 0, 0],
+			"translation": [-1.5, 6.75, 3.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-3, 0, 0],
+			"translation": [0, 8.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 9.25, 0]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0]
+		},
+		"gui": {
+			"rotation": [36, 0, 0],
+			"translation": [0, 10.25, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

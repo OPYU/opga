@@ -1,0 +1,153 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:blocks/dish_white",
+		"sara": "chinjufumod:blocks/dish_white",
+		"rice": "chinjufumod:blocks/food_gohan"
+	},
+	"elements": [
+		{
+			"name": "sara_n_top____________________________________________",
+			"from": [4, 0.4, 4],
+			"to": [12, 0.6, 5.5],
+			"faces": {
+				"north": {"uv": [4, 15.4, 12, 15.6], "texture": "#sara"},
+				"east": {"uv": [10.5, 15.4, 12, 15.6], "texture": "#sara"},
+				"south": {"uv": [4, 15.4, 12, 15.6], "texture": "#sara"},
+				"west": {"uv": [4, 15.4, 5.5, 15.6], "texture": "#sara"},
+				"up": {"uv": [4, 4, 12, 5.5], "texture": "#sara"},
+				"down": {"uv": [4, 10.5, 12, 12], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_s_top",
+			"from": [4, 0.4, 10.5],
+			"to": [12, 0.6, 12],
+			"faces": {
+				"north": {"uv": [4, 15.4, 12, 15.6], "texture": "#sara"},
+				"east": {"uv": [4, 15.4, 5.5, 15.6], "texture": "#sara"},
+				"south": {"uv": [4, 15.4, 12, 15.6], "texture": "#sara"},
+				"west": {"uv": [10.5, 15.4, 12, 15.6], "texture": "#sara"},
+				"up": {"uv": [4, 10.5, 12, 12], "texture": "#sara"},
+				"down": {"uv": [4, 4, 12, 5.5], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_e_top",
+			"from": [10.5, 0.4, 5.5],
+			"to": [12, 0.6, 10.5],
+			"faces": {
+				"east": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#sara"},
+				"west": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#sara"},
+				"up": {"uv": [10.5, 5.5, 12, 10.5], "texture": "#sara"},
+				"down": {"uv": [10.5, 5.5, 12, 10.5], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_w_top",
+			"from": [4, 0.4, 5.5],
+			"to": [5.5, 0.6, 10.5],
+			"faces": {
+				"east": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#sara"},
+				"west": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#sara"},
+				"up": {"uv": [4, 5.5, 5.5, 10.5], "texture": "#sara"},
+				"down": {"uv": [4, 5.5, 5.5, 10.5], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_top____________________________________________",
+			"from": [5.5, 0.3, 5.5],
+			"to": [10.5, 0.5, 10.5],
+			"faces": {
+				"north": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#sara"},
+				"east": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#sara"},
+				"south": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#sara"},
+				"west": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#sara"},
+				"up": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#sara"},
+				"down": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_bot_nor",
+			"from": [5.5, 0, 5.5],
+			"to": [10.5, 0.3, 5.8],
+			"faces": {
+				"north": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#sara"},
+				"east": {"uv": [10.2, 15.7, 10.5, 16], "texture": "#sara"},
+				"south": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#sara"},
+				"west": {"uv": [5.5, 15.7, 5.8, 16], "texture": "#sara"},
+				"down": {"uv": [5.5, 10.2, 10.5, 10.5], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_bot_sou",
+			"from": [5.5, 0, 10.2],
+			"to": [10.5, 0.3, 10.5],
+			"faces": {
+				"north": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#sara"},
+				"east": {"uv": [5.5, 15.7, 5.8, 16], "texture": "#sara"},
+				"south": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#sara"},
+				"west": {"uv": [10.2, 15.7, 10.5, 16], "texture": "#sara"},
+				"down": {"uv": [5.5, 5.5, 10.5, 5.8], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_bot_east",
+			"from": [5.5, 0, 5.8],
+			"to": [5.8, 0.3, 10.2],
+			"faces": {
+				"east": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#sara"},
+				"west": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#sara"},
+				"down": {"uv": [5.5, 5.8, 5.8, 10.2], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "sara_bot_west",
+			"from": [10.2, 0, 5.8],
+			"to": [10.5, 0.3, 10.2],
+			"faces": {
+				"east": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#sara"},
+				"west": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#sara"},
+				"down": {"uv": [10.2, 5.8, 10.5, 10.2], "texture": "#sara"}
+			}
+		},
+		{
+			"name": "rice1____________________________________________",
+			"from": [5.5, 0.51, 5.5],
+			"to": [10.5, 1, 10.5],
+			"faces": {
+				"north": {"uv": [5.5, 15, 10.5, 15.49], "texture": "#rice"},
+				"east": {"uv": [5.5, 15, 10.5, 15.49], "texture": "#rice"},
+				"south": {"uv": [5.5, 15, 10.5, 15.49], "texture": "#rice"},
+				"west": {"uv": [5.5, 15, 10.5, 15.49], "texture": "#rice"},
+				"up": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#rice"},
+				"down": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#rice"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [58, 0, 0],
+			"translation": [-6, 6.75, 5.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, 0, 0],
+			"translation": [-6, 6.5, 6.25]
+		},
+		"firstperson_righthand": {
+			"translation": [-9, 10.5, -0.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [-9, 10.75, 0]
+		},
+		"ground": {
+			"translation": [0, 2.25, 0]
+		},
+		"gui": {
+			"rotation": [35, 0, 0],
+			"translation": [0.25, 8.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

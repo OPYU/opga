@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "opga:cuisinier"
+    },
+    "facing=north": {
+      "model": "opga:cuisinier"
+    },
+    "facing=east": {
+      "model": "opga:cuisinier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "opga:cuisinier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "opga:cuisinier",
+      "y": 270
+    }
+  }
+}

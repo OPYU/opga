@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "sara": "dish_white",
+        "rice": "food_gohan"
+      },
+      "name": "default"
+    }
+  }
+}

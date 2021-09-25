@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "kaizoku": "kaizoku"
+      },
+      "name": "default"
+    }
+  }
+}

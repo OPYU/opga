@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "can": "teacan",
+        "chaba": "chaba_red"
+      },
+      "name": "default"
+    }
+  }
+}

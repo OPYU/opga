@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "kabuto": "kabuto"
+      },
+      "name": "default"
+    }
+  }
+}

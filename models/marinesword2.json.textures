@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "marinesword2": "marinesword2"
+      },
+      "name": "default"
+    }
+  }
+}

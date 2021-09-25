@@ -1,0 +1,14 @@
+{
+  "parent": "opga:custom/navigateur",
+  "textures": {
+    "all": "opga:blocks/map",
+    "particle": "opga:blocks/map",
+    "0": "opga:blocks/cartography_table_side1",
+    "1": "opga:blocks/cartography_table_side2",
+    "2": "opga:blocks/cartography_table_top",
+    "4": "opga:blocks/cartography_table_side3",
+    "5": "opga:blocks/compass",
+    "6": "opga:blocks/map",
+    "7": "opga:blocks/glass"
+  }
+}

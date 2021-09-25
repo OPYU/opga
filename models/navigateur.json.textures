@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cartography_table_side1",
+        "1": "cartography_table_side2",
+        "2": "cartography_table_top",
+        "4": "cartography_table_side3",
+        "5": "compass",
+        "6": "map",
+        "7": "glass"
+      },
+      "name": "default"
+    }
+  }
+}

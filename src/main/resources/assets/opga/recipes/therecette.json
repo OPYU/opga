@@ -1,0 +1,19 @@
+{
+  "group": "opga",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "opga:boitethe"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "opga:the",
+    "count": 1
+  }
+}

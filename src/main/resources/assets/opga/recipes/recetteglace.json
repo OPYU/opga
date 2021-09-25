@@ -1,0 +1,23 @@
+{
+  "group": "opga",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:packed_ice"
+    },
+    "1": {
+      "item": "minecraft:milk_bucket"
+    },
+    "2": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "opga:icecream",
+    "count": 1
+  }
+}

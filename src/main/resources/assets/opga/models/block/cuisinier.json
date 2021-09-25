@@ -1,0 +1,17 @@
+{
+  "parent": "opga:custom/cuisine",
+  "textures": {
+    "all": "opga:blocks/fish_cod_raw",
+    "particle": "opga:blocks/fish_cod_raw",
+    "0": "opga:blocks/fish_cod_raw",
+    "1": "opga:blocks/beef_cooked",
+    "2": "opga:blocks/red_sandstone_smooth",
+    "3": "opga:blocks/beetroot_soup",
+    "4": "opga:blocks/concrete_powder_brown",
+    "5": "opga:blocks/concrete_powder_lime",
+    "6": "opga:blocks/planks_big_oak",
+    "7": "opga:blocks/bookshelf",
+    "8": "opga:blocks/planks_oak",
+    "9": "opga:blocks/planks_spruce"
+  }
+}

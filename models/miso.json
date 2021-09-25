@@ -1,0 +1,105 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"shikki": "chinjufumod:blocks/dish_black",
+		"particle": "chinjufumod:blocks/dish_red",
+		"shikki2": "chinjufumod:blocks/dish_red",
+		"shikkinaka": "chinjufumod:blocks/miso"
+	},
+	"elements": [
+		{
+			"name": "shikki_soko",
+			"from": [6.7, 0, 6.7],
+			"to": [9.3, 0.2, 9.3],
+			"faces": {
+				"north": {"uv": [6.7, 15.8, 9.3, 16], "texture": "#shikki2"},
+				"east": {"uv": [6.7, 15.8, 9.3, 16], "texture": "#shikki2"},
+				"south": {"uv": [6.7, 15.8, 9.3, 16], "texture": "#shikki2"},
+				"west": {"uv": [6.7, 15.8, 9.3, 16], "texture": "#shikki2"},
+				"up": {"uv": [6.7, 6.7, 9.3, 9.3], "texture": "#shikki2"},
+				"down": {"uv": [6.7, 6.7, 9.3, 9.3], "texture": "#shikki2"}
+			}
+		},
+		{
+			"name": "shikki_n",
+			"from": [6.5, 0.2, 6.5],
+			"to": [9.5, 2, 6.7],
+			"faces": {
+				"north": {"uv": [6.5, 14, 9.5, 15.8], "texture": "#shikki"},
+				"east": {"uv": [9.3, 14, 9.5, 15.8], "texture": "#shikki"},
+				"south": {"uv": [6.5, 14, 9.5, 15.8], "texture": "#shikki2"},
+				"west": {"uv": [6.5, 14, 6.7, 15.8], "texture": "#shikki"},
+				"up": {"uv": [6.5, 6.5, 9.5, 6.7], "texture": "#shikki2"},
+				"down": {"uv": [6.5, 9.3, 9.5, 9.5], "texture": "#shikki"}
+			}
+		},
+		{
+			"name": "shikki_e",
+			"from": [9.3, 0.2, 6.7],
+			"to": [9.5, 2, 9.3],
+			"faces": {
+				"east": {"uv": [6.7, 14, 9.3, 15.8], "texture": "#shikki"},
+				"west": {"uv": [6.7, 14, 9.3, 15.8], "texture": "#shikki2"},
+				"up": {"uv": [9.3, 6.7, 9.5, 9.3], "texture": "#shikki2"},
+				"down": {"uv": [9.3, 6.7, 9.5, 9.3], "texture": "#shikki"}
+			}
+		},
+		{
+			"name": "shikki_s",
+			"from": [6.5, 0.2, 9.3],
+			"to": [9.5, 2, 9.5],
+			"faces": {
+				"north": {"uv": [6.5, 14, 9.5, 15.8], "texture": "#shikki2"},
+				"east": {"uv": [6.5, 14, 6.7, 15.8], "texture": "#shikki"},
+				"south": {"uv": [6.5, 14, 9.5, 15.8], "texture": "#shikki"},
+				"west": {"uv": [9.3, 14, 9.5, 15.8], "texture": "#shikki"},
+				"up": {"uv": [6.5, 9.3, 9.5, 9.5], "texture": "#shikki2"},
+				"down": {"uv": [6.5, 6.5, 9.5, 6.7], "texture": "#shikki"}
+			}
+		},
+		{
+			"name": "shikki_w",
+			"from": [6.5, 0.2, 6.7],
+			"to": [6.7, 2, 9.3],
+			"faces": {
+				"east": {"uv": [6.7, 14, 9.3, 15.8], "texture": "#shikki2"},
+				"west": {"uv": [6.7, 14, 9.3, 15.8], "texture": "#shikki"},
+				"up": {"uv": [6.5, 6.7, 6.7, 9.3], "texture": "#shikki2"},
+				"down": {"uv": [6.5, 6.7, 6.7, 9.3], "texture": "#shikki"}
+			}
+		},
+		{
+			"name": "shikki_naka",
+			"from": [6.7, 1, 6.7],
+			"to": [9.3, 1.5, 9.3],
+			"faces": {
+				"up": {"uv": [6.7, 6.7, 9.3, 9.3], "texture": "#shikkinaka"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [31, 0, 0],
+			"translation": [-1.75, 6.75, 3.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [20, 0, 0],
+			"translation": [-2.5, 7.25, 2.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 8.25, 0.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 8.5, 0]
+		},
+		"ground": {
+			"translation": [0, 2, 0]
+		},
+		"gui": {
+			"rotation": [39, 0, 0],
+			"translation": [0, 10.25, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "sendaikitetsu",
+    "customModelName": "lance:default",
+    "name": "Lance",
+    "creativeTab": {
+      "value": "CUSTOM:OPGA"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.6,
+    "enchantability": 2,
+    "damageVsEntity": 6.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

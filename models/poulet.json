@@ -1,0 +1,275 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "chinjufumod:blocks/dish_white",
+		"chickensara": "chinjufumod:blocks/dish_white",
+		"lettuce": "chinjufumod:blocks/food_lettuce",
+		"chicken": "chinjufumod:blocks/food_teri",
+		"chicken2": "chinjufumod:blocks/food_tori_b",
+		"hourensou": "chinjufumod:blocks/food_oleracea_b",
+		"ninjin": "chinjufumod:blocks/food_carot_b",
+		"tomato": "chinjufumod:blocks/tomato_7seed"
+	},
+	"elements": [
+		{
+			"name": "chickensara_n_top____________________________________________",
+			"from": [4, 0.4, 4],
+			"to": [12, 0.6, 5.5],
+			"faces": {
+				"north": {"uv": [4, 15.4, 12, 15.6], "texture": "#chickensara"},
+				"east": {"uv": [10.5, 15.4, 12, 15.6], "texture": "#chickensara"},
+				"south": {"uv": [4, 15.4, 12, 15.6], "texture": "#chickensara"},
+				"west": {"uv": [4, 15.4, 5.5, 15.6], "texture": "#chickensara"},
+				"up": {"uv": [4, 4, 12, 5.5], "texture": "#chickensara"},
+				"down": {"uv": [4, 10.5, 12, 12], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_s_top",
+			"from": [4, 0.4, 10.5],
+			"to": [12, 0.6, 12],
+			"faces": {
+				"north": {"uv": [4, 15.4, 12, 15.6], "texture": "#chickensara"},
+				"east": {"uv": [4, 15.4, 5.5, 15.6], "texture": "#chickensara"},
+				"south": {"uv": [4, 15.4, 12, 15.6], "texture": "#chickensara"},
+				"west": {"uv": [10.5, 15.4, 12, 15.6], "texture": "#chickensara"},
+				"up": {"uv": [4, 10.5, 12, 12], "texture": "#chickensara"},
+				"down": {"uv": [4, 4, 12, 5.5], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_e_top",
+			"from": [10.5, 0.4, 5.5],
+			"to": [12, 0.6, 10.5],
+			"faces": {
+				"east": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#chickensara"},
+				"west": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#chickensara"},
+				"up": {"uv": [10.5, 5.5, 12, 10.5], "texture": "#chickensara"},
+				"down": {"uv": [10.5, 5.5, 12, 10.5], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_w_top",
+			"from": [4, 0.4, 5.5],
+			"to": [5.5, 0.6, 10.5],
+			"faces": {
+				"east": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#chickensara"},
+				"west": {"uv": [5.5, 15.4, 10.5, 15.6], "texture": "#chickensara"},
+				"up": {"uv": [4, 5.5, 5.5, 10.5], "texture": "#chickensara"},
+				"down": {"uv": [4, 5.5, 5.5, 10.5], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_top____________________________________________",
+			"from": [5.5, 0.3, 5.5],
+			"to": [10.5, 0.5, 10.5],
+			"faces": {
+				"north": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#chickensara"},
+				"east": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#chickensara"},
+				"south": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#chickensara"},
+				"west": {"uv": [5.5, 15.5, 10.5, 15.7], "texture": "#chickensara"},
+				"up": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#chickensara"},
+				"down": {"uv": [5.5, 5.5, 10.5, 10.5], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_bot_nor",
+			"from": [5.5, 0, 5.5],
+			"to": [10.5, 0.3, 5.8],
+			"faces": {
+				"north": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#chickensara"},
+				"east": {"uv": [10.2, 15.7, 10.5, 16], "texture": "#chickensara"},
+				"south": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#chickensara"},
+				"west": {"uv": [5.5, 15.7, 5.8, 16], "texture": "#chickensara"},
+				"down": {"uv": [5.5, 10.2, 10.5, 10.5], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_bot_sou",
+			"from": [5.5, 0, 10.2],
+			"to": [10.5, 0.3, 10.5],
+			"faces": {
+				"north": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#chickensara"},
+				"east": {"uv": [5.5, 15.7, 5.8, 16], "texture": "#chickensara"},
+				"south": {"uv": [5.5, 15.7, 10.5, 16], "texture": "#chickensara"},
+				"west": {"uv": [10.2, 15.7, 10.5, 16], "texture": "#chickensara"},
+				"down": {"uv": [5.5, 5.5, 10.5, 5.8], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_bot_east",
+			"from": [5.5, 0, 5.8],
+			"to": [5.8, 0.3, 10.2],
+			"faces": {
+				"east": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#chickensara"},
+				"west": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#chickensara"},
+				"down": {"uv": [5.5, 5.8, 5.8, 10.2], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "chickensara_bot_west",
+			"from": [10.2, 0, 5.8],
+			"to": [10.5, 0.3, 10.2],
+			"faces": {
+				"east": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#chickensara"},
+				"west": {"uv": [5.8, 15.7, 10.2, 16], "texture": "#chickensara"},
+				"down": {"uv": [10.2, 5.8, 10.5, 10.2], "texture": "#chickensara"}
+			}
+		},
+		{
+			"name": "lettuce1____________________________________________",
+			"from": [5.5, 0.51, 6],
+			"to": [10, 0.6, 10],
+			"faces": {
+				"north": {"uv": [6, 15.4, 10.5, 15.49], "texture": "#lettuce"},
+				"east": {"uv": [6, 15.4, 10, 15.49], "texture": "#lettuce"},
+				"south": {"uv": [5.5, 15.4, 10, 15.49], "texture": "#lettuce"},
+				"west": {"uv": [6, 15.4, 10, 15.49], "texture": "#lettuce"},
+				"up": {"uv": [5.5, 6, 10, 10], "texture": "#lettuce"},
+				"down": {"uv": [5.5, 6, 10, 10], "texture": "#lettuce"}
+			}
+		},
+		{
+			"name": "hourensou1",
+			"from": [9, 0.61, 9],
+			"to": [10, 1.2, 10],
+			"faces": {
+				"north": {"uv": [6, 14.8, 7, 15.39], "texture": "#hourensou"},
+				"east": {"uv": [6, 14.8, 7, 15.39], "texture": "#hourensou"},
+				"south": {"uv": [9, 14.8, 10, 15.39], "texture": "#hourensou"},
+				"west": {"uv": [9, 14.8, 10, 15.39], "texture": "#hourensou"},
+				"up": {"uv": [9, 9, 10, 10], "texture": "#hourensou"},
+				"down": {"uv": [9, 6, 10, 7], "texture": "#hourensou"}
+			}
+		},
+		{
+			"name": "ninjin1",
+			"from": [9, 0.61, 7.9],
+			"to": [10, 1.2, 8.9],
+			"faces": {
+				"north": {"uv": [6, 14.8, 7, 15.39], "texture": "#ninjin"},
+				"east": {"uv": [7.1, 14.8, 8.1, 15.39], "texture": "#ninjin"},
+				"south": {"uv": [9, 14.8, 10, 15.39], "texture": "#ninjin"},
+				"west": {"uv": [7.9, 14.8, 8.9, 15.39], "texture": "#ninjin"},
+				"up": {"uv": [9, 7.9, 10, 8.9], "texture": "#ninjin"},
+				"down": {"uv": [9, 7.1, 10, 8.1], "texture": "#ninjin"}
+			}
+		},
+		{
+			"name": "tomato1",
+			"from": [9, 0.61, 6.8],
+			"to": [10, 1.2, 7.8],
+			"faces": {
+				"north": {"uv": [6, 14.8, 7, 15.39], "texture": "#tomato"},
+				"east": {"uv": [8.2, 14.8, 9.2, 15.39], "texture": "#tomato"},
+				"south": {"uv": [9, 14.8, 10, 15.39], "texture": "#tomato"},
+				"west": {"uv": [6.8, 14.8, 7.8, 15.39], "texture": "#tomato"},
+				"up": {"uv": [9, 6.8, 10, 7.8], "texture": "#tomato"},
+				"down": {"uv": [9, 8.2, 10, 9.2], "texture": "#tomato"}
+			}
+		},
+		{
+			"name": "chicken_hara_____11111",
+			"from": [6.1, 0.61, 6],
+			"to": [8.5, 1.3, 9],
+			"faces": {
+				"north": {"uv": [7.5, 14.7, 9.9, 15.39], "texture": "#chicken2"},
+				"east": {"uv": [7, 14.7, 10, 15.39], "texture": "#chicken"},
+				"south": {"uv": [6.1, 14.7, 8.5, 15.39], "texture": "#chicken"},
+				"west": {"uv": [6, 14.7, 9, 15.39], "texture": "#chicken"},
+				"up": {"uv": [6.1, 6, 8.5, 9], "texture": "#chicken"},
+				"down": {"uv": [6.1, 7, 8.5, 10], "texture": "#chicken2"}
+			}
+		},
+		{
+			"name": "chicken_o_____11111",
+			"from": [7.5, 0.61, 9],
+			"to": [8.5, 1.3, 10],
+			"faces": {
+				"north": {"uv": [7.5, 14.7, 8.5, 15.39], "texture": "#chicken"},
+				"east": {"uv": [6, 14.7, 7, 15.39], "texture": "#chicken"},
+				"south": {"uv": [7.5, 14.7, 8.5, 15.39], "texture": "#chicken"},
+				"west": {"uv": [9, 14.7, 10, 15.39], "texture": "#chicken"},
+				"up": {"uv": [7.5, 9, 8.5, 10], "texture": "#chicken"},
+				"down": {"uv": [7.5, 6, 8.5, 7], "texture": "#chicken2"}
+			}
+		},
+		{
+			"name": "chicken_migi_uchi______11111",
+			"from": [6.1, 1.3, 6],
+			"to": [8.2, 2.1, 8],
+			"faces": {
+				"north": {"uv": [7.8, 13.9, 9.9, 14.7], "texture": "#chicken2"},
+				"east": {"uv": [8, 13.9, 10, 14.7], "texture": "#chicken"},
+				"south": {"uv": [6.1, 13.9, 8.2, 14.7], "texture": "#chicken"},
+				"west": {"uv": [6, 13.9, 8, 14.7], "texture": "#chicken"},
+				"up": {"uv": [6.1, 6, 8.2, 8], "texture": "#chicken"},
+				"down": {"uv": [6.1, 8, 8.2, 10], "texture": "#chicken"}
+			}
+		},
+		{
+			"name": "chicken_migi_soto______11111",
+			"from": [6.1, 1.3, 6],
+			"to": [7.9, 1.8, 7],
+			"faces": {
+				"north": {"uv": [8.1, 14.2, 9.9, 14.7], "texture": "#chicken2"},
+				"east": {"uv": [9, 14.2, 10, 14.7], "texture": "#chicken"},
+				"south": {"uv": [6.1, 14.2, 7.9, 14.7], "texture": "#chicken"},
+				"west": {"uv": [6, 14.2, 7, 14.7], "texture": "#chicken"},
+				"up": {"uv": [6.1, 6, 7.9, 7], "texture": "#chicken"},
+				"down": {"uv": [6.1, 9, 7.9, 10], "texture": "#chicken"}
+			}
+		},
+		{
+			"name": "chicken_1",
+			"from": [7.3, 1.3, 6],
+			"to": [8.8, 2.8, 8.5],
+			"faces": {
+				"north": {"uv": [7.2, 13.2, 8.7, 14.7], "texture": "#chicken2"},
+				"east": {"uv": [7.5, 13.2, 10, 14.7], "texture": "#chicken"},
+				"south": {"uv": [7.3, 13.2, 8.8, 14.7], "texture": "#chicken"},
+				"west": {"uv": [6, 13.2, 8.5, 14.7], "texture": "#chicken"},
+				"up": {"uv": [7.3, 6, 8.8, 8.5], "texture": "#chicken"},
+				"down": {"uv": [7.3, 7.5, 8.8, 10], "texture": "#chicken"}
+			}
+		},
+		{
+			"name": "chicken_1",
+			"from": [8.2, 2.3, 8.5],
+			"to": [8.8, 2.8, 10],
+			"faces": {
+				"north": {"uv": [7.2, 13.2, 7.8, 13.7], "texture": "#chicken"},
+				"east": {"uv": [6, 13.2, 7.5, 13.7], "texture": "#chicken"},
+				"south": {"uv": [8.2, 13.2, 8.8, 13.7], "texture": "#chicken"},
+				"west": {"uv": [8.5, 13.2, 10, 13.7], "texture": "#chicken"},
+				"up": {"uv": [8.2, 8.5, 8.8, 10], "texture": "#chicken"},
+				"down": {"uv": [8.2, 6, 8.8, 7.5], "texture": "#chicken"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [64, 0, 0],
+			"translation": [-6, 6, 6.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [64, 0, 0],
+			"translation": [-6, 6.25, 6.5]
+		},
+		"firstperson_righthand": {
+			"translation": [-9, 10.5, -0.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [-9, 10.5, 0]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0]
+		},
+		"gui": {
+			"rotation": [50, 0, 0],
+			"translation": [0, 6.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

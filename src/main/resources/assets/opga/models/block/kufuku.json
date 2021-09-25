@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "opga:blocks/adonis_a",
+    "particle": "opga:blocks/adonis_a"
+  }
+}

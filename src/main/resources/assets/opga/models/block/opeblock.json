@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "opga:blocks/opeblock",
+    "up": "opga:blocks/opeblock",
+    "north": "opga:blocks/opeblock",
+    "east": "opga:blocks/opeblock",
+    "south": "opga:blocks/opeblock",
+    "west": "opga:blocks/opeblock",
+    "particle": "opga:blocks/opeblock"
+  }
+}

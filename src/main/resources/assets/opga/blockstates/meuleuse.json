@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "opga:meuleuse"
+    },
+    "facing=north": {
+      "model": "opga:meuleuse"
+    },
+    "facing=east": {
+      "model": "opga:meuleuse",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "opga:meuleuse",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "opga:meuleuse",
+      "y": 270
+    }
+  }
+}

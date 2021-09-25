@@ -1,0 +1,10 @@
+{
+  "parent": "opga:custom/fourforge",
+  "textures": {
+    "all": "opga:blocks/transparent",
+    "particle": "opga:blocks/transparent",
+    "0": "opga:blocks/cobblestone_mossy",
+    "1": "opga:blocks/cobblestone",
+    "2": "opga:blocks/lave"
+  }
+}

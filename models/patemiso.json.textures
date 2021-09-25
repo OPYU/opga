@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "owan": "muku_birch",
+        "owannaka": "miso_paste"
+      },
+      "name": "default"
+    }
+  }
+}

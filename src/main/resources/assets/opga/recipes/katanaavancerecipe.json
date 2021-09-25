@@ -1,0 +1,24 @@
+{
+  "group": "opga",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "opga:katanaavanceiron"
+    },
+    "4": {
+      "item": "opga:katanaavanceiron"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "opga:kaizoku",
+    "count": 1
+  }
+}

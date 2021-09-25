@@ -1,0 +1,23 @@
+{
+  "group": "opga",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "opga:misopate"
+    },
+    "1": {
+      "item": "opga:tofu"
+    },
+    "2": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "opga:miso",
+    "count": 1
+  }
+}

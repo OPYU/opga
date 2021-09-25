@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "opga:abel"
+    },
+    "facing=south": {
+      "model": "opga:abel"
+    },
+    "facing=north": {
+      "model": "opga:abel"
+    },
+    "facing=east": {
+      "model": "opga:abel",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "opga:abel",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "opga:abel",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "opga:abel",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

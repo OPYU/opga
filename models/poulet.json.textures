@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "chicken": "food_teri",
+        "chicken2": "food_tori_b",
+        "chickensara": "dish_white",
+        "hourensou": "food_oleracea_b",
+        "tomato": "tomato_7s",
+        "ninjin": "food_carot_b",
+        "lettuce": "food_lettuce"
+      },
+      "name": "default"
+    }
+  }
+}

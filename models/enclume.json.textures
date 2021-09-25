@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "log_oak",
+        "1": "log_oak_top",
+        "2": "anvil_base"
+      },
+      "name": "default"
+    }
+  }
+}

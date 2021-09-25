@@ -1,0 +1,10 @@
+{
+  "parent": "opga:custom/enclume",
+  "textures": {
+    "all": "opga:blocks/1lee",
+    "particle": "opga:blocks/1lee",
+    "0": "opga:blocks/log_oak",
+    "1": "opga:blocks/log_oak_top",
+    "2": "opga:blocks/anvil_base"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "group": "opga",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "opga:curry"
+    },
+    "1": {
+      "item": "opga:riz"
+    },
+    "2": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "opga:platcurry",
+    "count": 1
+  }
+}

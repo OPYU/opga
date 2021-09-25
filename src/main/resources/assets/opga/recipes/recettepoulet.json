@@ -1,0 +1,26 @@
+{
+  "group": "opga",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "opga:poireau"
+    },
+    "1": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "2": {
+      "item": "minecraft:carrot"
+    },
+    "4": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "opga:platpoulet",
+    "count": 1
+  }
+}

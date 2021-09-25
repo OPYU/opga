@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "opga:blocks/abel_planck",
+    "particle": "opga:blocks/abel_planck"
+  }
+}

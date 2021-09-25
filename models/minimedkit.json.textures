@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "minimedkit": "minimedkit"
+      },
+      "name": "default"
+    }
+  }
+}

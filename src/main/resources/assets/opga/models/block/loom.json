@@ -1,0 +1,13 @@
+{
+  "parent": "opga:custom/loom",
+  "textures": {
+    "all": "opga:blocks/black_dye",
+    "particle": "opga:blocks/black_dye",
+    "0": "opga:blocks/planks_birch",
+    "1": "opga:blocks/planks_oak",
+    "2": "opga:blocks/dye_powder_gray",
+    "3": "opga:blocks/test2",
+    "4": "opga:blocks/dye_powder_black",
+    "missing": "opga:blocks/planks_birch"
+  }
+}

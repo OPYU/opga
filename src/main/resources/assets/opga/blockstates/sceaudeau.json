@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "opga:sceaudeau"
+    },
+    "facing=north": {
+      "model": "opga:sceaudeau"
+    },
+    "facing=east": {
+      "model": "opga:sceaudeau",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "opga:sceaudeau",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "opga:sceaudeau",
+      "y": 270
+    }
+  }
+}

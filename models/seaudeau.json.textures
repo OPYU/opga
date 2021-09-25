@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_ingot",
+        "1": "planks_big_oak",
+        "2": "water_overlay"
+      },
+      "name": "default"
+    }
+  }
+}

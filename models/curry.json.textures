@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "otama": "dish_gray",
+        "nabe": "dish_lightg",
+        "tamanegi": "food_onion_ame",
+        "niku": "food_beef_b",
+        "rou": "food_curryrou",
+        "imo": "food_potato_b",
+        "ninjin": ""
+      },
+      "name": "default"
+    }
+  }
+}

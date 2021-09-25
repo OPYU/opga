@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "opga:forgetest"
+    },
+    "facing=north": {
+      "model": "opga:forgetest"
+    },
+    "facing=east": {
+      "model": "opga:forgetest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "opga:forgetest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "opga:forgetest",
+      "y": 270
+    }
+  }
+}

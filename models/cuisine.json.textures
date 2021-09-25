@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fish_cod_raw",
+        "1": "beef_cooked",
+        "2": "red_sandstone_smooth",
+        "3": "beetroot_soup",
+        "4": "concrete_powder_brown",
+        "5": "concrete_powder_lime",
+        "6": "planks_big_oak",
+        "7": "bookshelf",
+        "8": "planks_oak",
+        "9": "planks_spruce"
+      },
+      "name": "default"
+    }
+  }
+}

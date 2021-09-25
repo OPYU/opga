@@ -1,0 +1,9 @@
+{
+  "parent": "opga:custom/meuleuse",
+  "textures": {
+    "all": "opga:blocks/2",
+    "particle": "opga:blocks/2",
+    "0": "opga:blocks/oak_planks",
+    "1": "opga:blocks/cobblestone"
+  }
+}

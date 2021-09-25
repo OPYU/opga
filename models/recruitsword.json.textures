@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "recruitsword": "marinesword1"
+      },
+      "name": "default"
+    }
+  }
+}
