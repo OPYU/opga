@@ -14,13 +14,13 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemRiz extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemRiz extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:riz")
 	public static final Item block = null;
-	public ItemRiz(ElementsOPGA instance) {
+	public ItemRiz(ElementsOpgaMod instance) {
 		super(instance, 10);
 	}
 

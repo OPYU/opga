@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "food",
   "definition": {
     "renderType": 1,
     "texture": "barabaranomi",
     "customModelName": "chiyuchiyunomi:default",
     "name": "Chiyu Chiyu no mi",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OPGA"
     },

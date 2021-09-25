@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "goegoenomi",
     "customModelName": "Normal",
     "name": "Goe Goe no mi",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OPGA"
     },

@@ -17,13 +17,13 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.procedure.ProcedureMisoFoodEaten;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemMiso extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemMiso extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:miso")
 	public static final Item block = null;
-	public ItemMiso(ElementsOPGA instance) {
+	public ItemMiso(ElementsOpgaMod instance) {
 		super(instance, 13);
 	}
 

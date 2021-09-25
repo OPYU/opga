@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
 import net.mcreator.opga.block.BlockOpeblock;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class TabOPGA extends ElementsOPGA.ModElement {
-	public TabOPGA(ElementsOPGA instance) {
+@ElementsOpgaMod.ModElement.Tag
+public class TabOPGA extends ElementsOpgaMod.ModElement {
+	public TabOPGA(ElementsOpgaMod instance) {
 		super(instance, 33);
 	}
 

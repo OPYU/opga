@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "food",
   "definition": {
     "renderType": 1,
     "texture": "ichimizu",
     "customModelName": "uchimizu:default",
     "name": "Ichimizufood",
+    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },

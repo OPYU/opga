@@ -31,14 +31,14 @@ import net.minecraft.client.renderer.entity.RenderSnowball;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemTestarc extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemTestarc extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:testarc")
 	public static final Item block = null;
 	public static final int ENTITYID = 10;
-	public ItemTestarc(ElementsOPGA instance) {
+	public ItemTestarc(ElementsOpgaMod instance) {
 		super(instance, 152);
 	}
 

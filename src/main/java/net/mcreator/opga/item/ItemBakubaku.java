@@ -17,13 +17,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.procedure.ProcedureFddEatend;
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemBakubaku extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemBakubaku extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:bakubaku")
 	public static final Item block = null;
-	public ItemBakubaku(ElementsOPGA instance) {
+	public ItemBakubaku(ElementsOpgaMod instance) {
 		super(instance, 72);
 	}
 

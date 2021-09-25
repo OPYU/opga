@@ -12,13 +12,13 @@ import net.minecraft.item.Item;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemExperience1 extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemExperience1 extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:experience1")
 	public static final Item block = null;
-	public ItemExperience1(ElementsOPGA instance) {
+	public ItemExperience1(ElementsOpgaMod instance) {
 		super(instance, 135);
 	}
 

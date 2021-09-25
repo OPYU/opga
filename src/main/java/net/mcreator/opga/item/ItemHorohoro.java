@@ -17,13 +17,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.procedure.ProcedureFddEatend;
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemHorohoro extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemHorohoro extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:horohoro")
 	public static final Item block = null;
-	public ItemHorohoro(ElementsOPGA instance) {
+	public ItemHorohoro(ElementsOpgaMod instance) {
 		super(instance, 86);
 	}
 

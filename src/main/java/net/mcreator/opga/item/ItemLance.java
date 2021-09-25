@@ -17,18 +17,18 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
 import java.util.Set;
 import java.util.HashMap;
 
 import com.google.common.collect.Multimap;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemLance extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemLance extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:lance")
 	public static final Item block = null;
-	public ItemLance(ElementsOPGA instance) {
+	public ItemLance(ElementsOpgaMod instance) {
 		super(instance, 118);
 	}
 

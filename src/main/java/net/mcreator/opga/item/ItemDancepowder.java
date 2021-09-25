@@ -13,13 +13,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemDancepowder extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemDancepowder extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:dancepowder")
 	public static final Item block = null;
-	public ItemDancepowder(ElementsOPGA instance) {
+	public ItemDancepowder(ElementsOpgaMod instance) {
 		super(instance, 42);
 	}
 

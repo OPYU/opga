@@ -5,7 +5,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-public class ServerProxyOPGA implements IProxyOPGA {
+public class ServerProxyOpgaMod implements IProxyOpgaMod {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 	}

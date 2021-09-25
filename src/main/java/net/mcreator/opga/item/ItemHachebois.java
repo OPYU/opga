@@ -18,15 +18,15 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.Block;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
 import java.util.Set;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemHachebois extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemHachebois extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:hachebois")
 	public static final Item block = null;
-	public ItemHachebois(ElementsOPGA instance) {
+	public ItemHachebois(ElementsOpgaMod instance) {
 		super(instance, 133);
 	}
 

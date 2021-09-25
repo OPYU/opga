@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "tool",
   "definition": {
     "renderType": 1,
     "texture": "sendaikitetsu",
     "customModelName": "marinesword2:default",
     "name": "Katana basique",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OPGA"
     },
@@ -15,9 +16,11 @@
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 5.0,
-    "usageCount": 100,
+    "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
   }
 }

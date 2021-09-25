@@ -13,13 +13,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemPetitebourse extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemPetitebourse extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:petitebourse")
 	public static final Item block = null;
-	public ItemPetitebourse(ElementsOPGA instance) {
+	public ItemPetitebourse(ElementsOpgaMod instance) {
 		super(instance, 34);
 	}
 

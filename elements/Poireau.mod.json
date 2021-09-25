@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "poireau",
     "customModelName": "Normal",
     "name": "Poireau",
+    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },

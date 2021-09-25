@@ -17,13 +17,13 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.procedure.ProcedureBoitetheFoodEaten;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemBoitethe extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemBoitethe extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:boitethe")
 	public static final Item block = null;
-	public ItemBoitethe(ElementsOPGA instance) {
+	public ItemBoitethe(ElementsOpgaMod instance) {
 		super(instance, 11);
 	}
 

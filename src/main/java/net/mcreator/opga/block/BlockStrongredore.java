@@ -15,13 +15,13 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class BlockStrongredore extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class BlockStrongredore extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:strongredore")
 	public static final Block block = null;
-	public BlockStrongredore(ElementsOPGA instance) {
+	public BlockStrongredore(ElementsOpgaMod instance) {
 		super(instance, 51);
 	}
 

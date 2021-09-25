@@ -5,11 +5,11 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ProcedurePlatcurryFoodEaten extends ElementsOPGA.ModElement {
-	public ProcedurePlatcurryFoodEaten(ElementsOPGA instance) {
+@ElementsOpgaMod.ModElement.Tag
+public class ProcedurePlatcurryFoodEaten extends ElementsOpgaMod.ModElement {
+	public ProcedurePlatcurryFoodEaten(ElementsOpgaMod instance) {
 		super(instance, 25);
 	}
 

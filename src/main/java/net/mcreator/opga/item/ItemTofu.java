@@ -14,13 +14,13 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemTofu extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemTofu extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:tofu")
 	public static final Item block = null;
-	public ItemTofu(ElementsOPGA instance) {
+	public ItemTofu(ElementsOpgaMod instance) {
 		super(instance, 17);
 	}
 

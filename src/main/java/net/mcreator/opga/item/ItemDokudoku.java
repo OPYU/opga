@@ -17,13 +17,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.procedure.ProcedureFddEatend;
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemDokudoku extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemDokudoku extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:dokudoku")
 	public static final Item block = null;
-	public ItemDokudoku(ElementsOPGA instance) {
+	public ItemDokudoku(ElementsOpgaMod instance) {
 		super(instance, 77);
 	}
 

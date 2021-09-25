@@ -13,13 +13,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemMenottes extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemMenottes extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:menottes")
 	public static final Item block = null;
-	public ItemMenottes(ElementsOPGA instance) {
+	public ItemMenottes(ElementsOpgaMod instance) {
 		super(instance, 30);
 	}
 

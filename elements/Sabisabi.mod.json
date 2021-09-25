@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "sabisabinomi",
     "customModelName": "Normal",
     "name": "Sabi Sabi no mi",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OPGA"
     },

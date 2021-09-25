@@ -45,7 +45,7 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
-public class ElementsOPGA implements IFuelHandler, IWorldGenerator {
+public class ElementsOpgaMod implements IFuelHandler, IWorldGenerator {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
@@ -53,7 +53,7 @@ public class ElementsOPGA implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<EntityEntry>> entities = new ArrayList<>();
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
-	public ElementsOPGA() {
+	public ElementsOpgaMod() {
 		sounds.put(new ResourceLocation("opga", "bullet"), new net.minecraft.util.SoundEvent(new ResourceLocation("opga", "bullet")));
 	}
 
@@ -61,15 +61,15 @@ public class ElementsOPGA implements IFuelHandler, IWorldGenerator {
 		try {
 			for (ASMDataTable.ASMData asmData : event.getAsmData().getAll(ModElement.Tag.class.getName())) {
 				Class<?> clazz = Class.forName(asmData.getClassName());
-				if (clazz.getSuperclass() == ElementsOPGA.ModElement.class)
-					elements.add((ElementsOPGA.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
+				if (clazz.getSuperclass() == ElementsOpgaMod.ModElement.class)
+					elements.add((ElementsOpgaMod.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		Collections.sort(elements);
-		elements.forEach(ElementsOPGA.ModElement::initElements);
-		this.addNetworkMessage(OPGAVariables.WorldSavedDataSyncMessageHandler.class, OPGAVariables.WorldSavedDataSyncMessage.class, Side.SERVER,
+		elements.forEach(ElementsOpgaMod.ModElement::initElements);
+		this.addNetworkMessage(OpgaModVariables.WorldSavedDataSyncMessageHandler.class, OpgaModVariables.WorldSavedDataSyncMessage.class, Side.SERVER,
 				Side.CLIENT);
 	}
 
@@ -96,28 +96,28 @@ public class ElementsOPGA implements IFuelHandler, IWorldGenerator {
 	@SubscribeEvent
 	public void onPlayerLoggedIn(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent event) {
 		if (!event.player.world.isRemote) {
-			WorldSavedData mapdata = OPGAVariables.MapVariables.get(event.player.world);
-			WorldSavedData worlddata = OPGAVariables.WorldVariables.get(event.player.world);
+			WorldSavedData mapdata = OpgaModVariables.MapVariables.get(event.player.world);
+			WorldSavedData worlddata = OpgaModVariables.WorldVariables.get(event.player.world);
 			if (mapdata != null)
-				OPGA.PACKET_HANDLER.sendTo(new OPGAVariables.WorldSavedDataSyncMessage(0, mapdata), (EntityPlayerMP) event.player);
+				OpgaMod.PACKET_HANDLER.sendTo(new OpgaModVariables.WorldSavedDataSyncMessage(0, mapdata), (EntityPlayerMP) event.player);
 			if (worlddata != null)
-				OPGA.PACKET_HANDLER.sendTo(new OPGAVariables.WorldSavedDataSyncMessage(1, worlddata), (EntityPlayerMP) event.player);
+				OpgaMod.PACKET_HANDLER.sendTo(new OpgaModVariables.WorldSavedDataSyncMessage(1, worlddata), (EntityPlayerMP) event.player);
 		}
 	}
 
 	@SubscribeEvent
 	public void onPlayerChangedDimension(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerChangedDimensionEvent event) {
 		if (!event.player.world.isRemote) {
-			WorldSavedData worlddata = OPGAVariables.WorldVariables.get(event.player.world);
+			WorldSavedData worlddata = OpgaModVariables.WorldVariables.get(event.player.world);
 			if (worlddata != null)
-				OPGA.PACKET_HANDLER.sendTo(new OPGAVariables.WorldSavedDataSyncMessage(1, worlddata), (EntityPlayerMP) event.player);
+				OpgaMod.PACKET_HANDLER.sendTo(new OpgaModVariables.WorldSavedDataSyncMessage(1, worlddata), (EntityPlayerMP) event.player);
 		}
 	}
 	private int messageID = 0;
 	public <T extends IMessage, V extends IMessage> void addNetworkMessage(Class<? extends IMessageHandler<T, V>> handler, Class<T> messageClass,
 			Side... sides) {
 		for (Side side : sides)
-			OPGA.PACKET_HANDLER.registerMessage(handler, messageClass, messageID, side);
+			OpgaMod.PACKET_HANDLER.registerMessage(handler, messageClass, messageID, side);
 		messageID++;
 	}
 	public static class GuiHandler implements IGuiHandler {
@@ -158,9 +158,9 @@ public class ElementsOPGA implements IFuelHandler, IWorldGenerator {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
-		protected final ElementsOPGA elements;
+		protected final ElementsOpgaMod elements;
 		protected final int sortid;
-		public ModElement(ElementsOPGA elements, int sortid) {
+		public ModElement(ElementsOpgaMod elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;
 		}

@@ -14,13 +14,13 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemCurry extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemCurry extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:curry")
 	public static final Item block = null;
-	public ItemCurry(ElementsOPGA instance) {
+	public ItemCurry(ElementsOpgaMod instance) {
 		super(instance, 12);
 	}
 

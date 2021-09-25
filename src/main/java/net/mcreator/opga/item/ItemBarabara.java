@@ -17,13 +17,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.procedure.ProcedureFddEatend;
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemBarabara extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemBarabara extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:barabara")
 	public static final Item block = null;
-	public ItemBarabara(ElementsOPGA instance) {
+	public ItemBarabara(ElementsOpgaMod instance) {
 		super(instance, 57);
 	}
 

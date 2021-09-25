@@ -17,13 +17,13 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.procedure.ProcedurePlatcurryFoodEaten;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemPlatcurry extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemPlatcurry extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:platcurry")
 	public static final Item block = null;
-	public ItemPlatcurry(ElementsOPGA instance) {
+	public ItemPlatcurry(ElementsOpgaMod instance) {
 		super(instance, 21);
 	}
 

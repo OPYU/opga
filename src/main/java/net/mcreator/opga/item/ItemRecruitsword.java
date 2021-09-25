@@ -17,24 +17,24 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
 import java.util.Set;
 import java.util.HashMap;
 
 import com.google.common.collect.Multimap;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemRecruitsword extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemRecruitsword extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:recruitsword")
 	public static final Item block = null;
-	public ItemRecruitsword(ElementsOPGA instance) {
+	public ItemRecruitsword(ElementsOpgaMod instance) {
 		super(instance, 68);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("RECRUITSWORD", 1, 100, 6f, 2f, 2)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("RECRUITSWORD", 1, 250, 6f, 2f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

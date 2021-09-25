@@ -13,13 +13,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemOrangeskull extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemOrangeskull extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:orangeskull")
 	public static final Item block = null;
-	public ItemOrangeskull(ElementsOPGA instance) {
+	public ItemOrangeskull(ElementsOpgaMod instance) {
 		super(instance, 46);
 	}
 

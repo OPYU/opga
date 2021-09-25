@@ -17,24 +17,24 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
 import java.util.Set;
 import java.util.HashMap;
 
 import com.google.common.collect.Multimap;
 
-@ElementsOPGA.ModElement.Tag
-public class ItemKaizoku extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class ItemKaizoku extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:kaizoku")
 	public static final Item block = null;
-	public ItemKaizoku(ElementsOPGA instance) {
+	public ItemKaizoku(ElementsOpgaMod instance) {
 		super(instance, 71);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("KAIZOKU", 1, 100, 7f, 4f, 2)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("KAIZOKU", 1, 350, 7f, 4f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

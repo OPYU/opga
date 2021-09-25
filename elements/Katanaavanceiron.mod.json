@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -16,9 +16,12 @@
     "damageCount": 0,
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false
+    "hasGlow": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64
   }
 }

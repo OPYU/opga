@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "tool",
   "definition": {
     "renderType": 1,
     "texture": "sendaikitetsu",
     "customModelName": "kuro:default",
     "name": "Kuro",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:OPGA"
     },
@@ -18,6 +19,8 @@
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
   }
 }

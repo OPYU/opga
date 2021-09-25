@@ -25,13 +25,13 @@ import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
 import net.mcreator.opga.creativetab.TabOPGA;
-import net.mcreator.opga.ElementsOPGA;
+import net.mcreator.opga.ElementsOpgaMod;
 
-@ElementsOPGA.ModElement.Tag
-public class BlockEnclume extends ElementsOPGA.ModElement {
+@ElementsOpgaMod.ModElement.Tag
+public class BlockEnclume extends ElementsOpgaMod.ModElement {
 	@GameRegistry.ObjectHolder("opga:enclume")
 	public static final Block block = null;
-	public BlockEnclume(ElementsOPGA instance) {
+	public BlockEnclume(ElementsOpgaMod instance) {
 		super(instance, 141);
 	}
 

@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 10,
   "_type": "gun",
   "definition": {
     "renderType": 0,
     "texture": "bomubomunomi",
     "customModelName": "Normal",
     "name": "Testarc",
+    "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
     },
